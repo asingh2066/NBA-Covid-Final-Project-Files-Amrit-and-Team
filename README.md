@@ -1,8 +1,9 @@
 # NBA-Sports-Final-Project-Files
 This repository includes all the code, visuals, the report, and PowerPoint that were required for the final submission for Professor Ronak
-Team Members: Ibrahim Hassanain,Tszchung Cheung, Amrit Singh, Hamzah Saleh, Lifu Tao, Shazid Rahman
 
-We have posted the links thats take you too the visual and code down below so you don't have to go through the trouble to run the code. Some files are on vegaltie so using the links would prove to be a more effecient method
+##Team Members: Ibrahim Hassanain,Tszchung Cheung, Amrit Singh, Hamzah Saleh, Lifu Tao, Shazid Rahman
+
+##We have posted the links thats take you too the visual and code down below so you don't have to go through the trouble to run the code. Some files are on vegaltie so using the links would prove to be a more effecient method
 
 However, if want to run the files yourself, you can download the repository on your local computer. Use google colab or jupyter notebook/lab since they are mostly .ipynb files.
 
