@@ -3,7 +3,7 @@ This repository includes all the code, visuals, the report, and PowerPoint that 
 
 **Team Members: Ibrahim Hassanain,Tszchung Cheung, Amrit Singh, Hamzah Saleh, Lifu Tao, Shazid Rahman**
 
-**Link to Video:** https://drive.google.com/file/d/1khUp870el0eNDMofi6TVp9sXQkRxFY7G/view
+**Link to Video:** https://drive.google.com/file/d/18-mBIiWWEK6OhuIoh0S3ZK79SVR7ulE0/view?usp=sharing
 
 **We have posted the links thats take you too the visual and code down below so you don't have to go through the trouble to run the code. Some files are on vegaltie so using the links would prove to be a more effecient method**
 
