@@ -1,5 +1,6 @@
 # NBA-Sports-Final-Project-Files
 This repository includes all the code, visuals, the report, and PowerPoint that were required for the final submission for Professor Ronak
+Team Members: Ibrahim Hassanain,Tszchung Cheung, Amrit Singh, Hamzah Saleh, Lifu Tao, Shazid Rahman
 
 We have posted the links thats take you too the visual and code down below so you don't have to go through the trouble to run the code. Some files are on vegaltie so using the links would prove to be a more effecient method
 
@@ -20,9 +21,9 @@ https://colab.research.google.com/drive/1C7NanWz2vATs2NBRXSSoibqNpP-NRUZa?usp=sh
 
 https://colab.research.google.com/drive/1vy7R7QCIjnWLoutJAQeo5y7gJLiY1GD_?usp=sharing → team standings during the covid season and before
 
-https://colab.research.google.com/drive/1HcNCS3fpLPVPcez8tQXmzmlrdoT-6lZy?usp=sharing → 
+https://colab.research.google.com/drive/1HcNCS3fpLPVPcez8tQXmzmlrdoT-6lZy?usp=sharing → Injuries number of all teams depicted on U.S MAP
 
-https://colab.research.google.com/drive/1FZVoRgD0LM7E4mFsdq8Dz0OYPLabGbmZ?usp=sharing → 
+https://colab.research.google.com/drive/1FZVoRgD0LM7E4mFsdq8Dz0OYPLabGbmZ?usp=sharing → Performance of all NBA players who have had Covid-19
 
 https://colab.research.google.com/drive/1NdyiLmK1Tpq9_l6OF1t3xvEaWVDznWE4?usp=sharing → players in the covid protocol, and its effect on team effeciency
 
