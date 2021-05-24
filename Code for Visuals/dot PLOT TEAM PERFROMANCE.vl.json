@@ -1,0 +1,27 @@
+{
+  "data": {
+    "values": [
+      {"year": "2010", "winning pertentage": 0.671},
+      {"year": "2012", "winning pertentage": 0.679},
+      {"year": "2013", "winning pertentage": 0.635},
+      {"year": "2014", "winning pertentage": 0.562},
+      {"year": "2015", "winning pertentage": 0.562},
+      {"year": "2016", "winning pertentage": 0.647},
+      {"year": "2017", "winning pertentage": 0.57},
+      {"year": "2018", "winning pertentage": 0.707},
+      {"year": "2019", "winning pertentage": 0.561},
+      {"year": "2020", "winning pertentage": 0.482}
+    ]
+  },
+  "mark": "point",
+  "encoding": {
+    "x": {"field": "year", "type": "nominal"},
+    "y": {
+      "aggregate": "average",
+      "field": "winning pertentage",
+      "type": "quantitative",
+      "title": "winning pertentage"
+    }
+  },
+  "config": {}
+}

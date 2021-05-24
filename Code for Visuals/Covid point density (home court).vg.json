@@ -1,0 +1,87 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 400,
+  "height": 200,
+  "padding": 0,
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {"PTS": "80", "denisty": 0.005},
+        {"PTS": "90", "denisty": 0.01},
+        {"PTS": "100", "denisty": 0.025},
+        {"PTS": "120", "denisty": 0.003},
+        {"PTS": "130", "denisty": 0.001},
+        {"PTS": "140", "denisty": 0.002},
+        {"PTS": "150", "denisty": 0.003},
+        {"PTS": "160", "denisty": 0}
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "tooltip",
+      "value": {},
+      "on": [
+        {"events": "rect:mouseover", "update": "datum"},
+        {"events": "rect:mouseout", "update": "{}"}
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "xscale",
+      "type": "band",
+      "domain": {"data": "table", "field": "PTS"},
+      "range": "width",
+      "padding": 0,
+      "round": true
+    },
+    {
+      "name": "yscale",
+      "domain": {"data": "table", "field": "denisty"},
+      "nice": true,
+      "range": "height"
+    }
+  ],
+  "axes": [
+    {"orient": "bottom", "scale": "xscale"},
+    {"orient": "left", "scale": "yscale"}
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "xscale", "field": "PTS"},
+          "width": {"scale": "xscale", "band": 1},
+          "y": {"scale": "yscale", "field": "denisty"},
+          "y2": {"scale": "yscale", "value": 0}
+        },
+        "update": {"fill": {"value": "red"}},
+        "hover": {"fill": {"value": "red"}}
+      }
+    },
+    {
+      "type": "text",
+      "encode": {
+        "enter": {
+          "align": {"value": "center"},
+          "baseline": {"value": "bottom"},
+          "fill": {"value": "#333"}
+        },
+        "update": {
+          "x": {"scale": "xscale", "signal": "tooltip.PTS", "band": 0.5},
+          "y": {"scale": "yscale", "signal": "tooltip.denisty", "offset": -2},
+          "text": {"signal": "tooltip.denisty"},
+          "fillOpacity": [
+            {"test": "isNaN(tooltip.denisty)", "value": 0},
+            {"value": 1}
+          ]
+        }
+      }
+    }
+  ],
+  "config": {}
+}
